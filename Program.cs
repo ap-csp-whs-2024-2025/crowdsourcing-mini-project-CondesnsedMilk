@@ -7,34 +7,44 @@ class Program
         List<string> songTitle = new List<string>();
         List<string> songArtist = new List<string>();
         List<int> songDuration = new List<int>();
+        int count = 0;
+        bool shouldContinue = true;
 
-        while(true)
+        while(shouldContinue)
         {
-            for(int i, i=0; i<4; i++)
-            {
 
-            }
+            
             Console.Write("Enter the song's title: ");
             songTitle.Add(Console.ReadLine()!);
 
             Console.Write("Enter the artist: ");
             songArtist.Add(Console.ReadLine()!);
 
-            Console.Write("How many minutes is the song");
+            Console.Write("How many minutes is the song: ");
             songDuration.Add(Convert.ToInt32(Console.ReadLine()!));
+            songDuration[count] *= 60;
 
-            Console.Write("How many seconds are in the song");
+            Console.Write("How many seconds are in the song: ");
+            songDuration[count] += Convert.ToInt32(Console.ReadLine()!);
 
-
-            Redo();
+            shouldContinue = Redo();
+            if(!shouldContinue)
+            {
+                break;
+            }
         }
+
+        Console.WriteLine($"Total duration: {songDuration[count]}");
+        Console.WriteLine($"Average duration: ");
+        Console.WriteLine($"Longest song: ");
+        Console.WriteLine($"Longest song: Shortest song: ");
     }
 
     static bool Redo()
     {
         while(true)
         {
-            Console.WriteLine("Would you like to enter another song? y/n");
+            Console.WriteLine("Would you like to enter another song? y/n: ");
             string redo = Console.ReadLine()!.Trim().ToLower();
 
             switch (redo)
@@ -46,7 +56,7 @@ class Program
                default:
                    Console.WriteLine("Invalid input. 'y' or 'n'");
                    break;
-        }
+            }  
         }
         
     }
