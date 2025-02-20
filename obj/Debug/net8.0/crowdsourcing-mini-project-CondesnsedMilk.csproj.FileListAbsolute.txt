@@ -1,0 +1,15 @@
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/bin/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/bin/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.deps.json
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/bin/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.runtimeconfig.json
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/bin/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.dll
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/bin/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.pdb
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.AssemblyInfoInputs.cache
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.AssemblyInfo.cs
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.csproj.CoreCompileInputs.cache
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.sourcelink.json
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.dll
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/refint/crowdsourcing-mini-project-CondesnsedMilk.dll
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.pdb
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/crowdsourcing-mini-project-CondesnsedMilk.genruntimeconfig.cache
+/workspaces/crowdsourcing-mini-project-CondesnsedMilk/obj/Debug/net8.0/ref/crowdsourcing-mini-project-CondesnsedMilk.dll
