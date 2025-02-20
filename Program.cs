@@ -26,6 +26,7 @@ class Program
             songDuration[count] += Convert.ToInt32(Console.ReadLine()!);
 
             shouldContinue = Redo();
+            count++;
             if(!shouldContinue)
             {
                 break;
@@ -39,8 +40,17 @@ class Program
 
     static void Count(int subCount, List<string> songTitle, List<string> songArtist, List<int> songDuration)
     {
-        Console.WriteLine($"Total duration: {songDuration[count]}");
-        Console.WriteLine($"Average duration: ");
+        int totalDuration = 0;
+        float average = 0;
+
+        for(int i = 0; i < songDuration.Count; i++)
+        {
+            totalDuration += songDuration[i];
+        }
+        average = totalDuration / songDuration.Count;
+
+        Console.WriteLine($"Total duration: {totalDuration}");
+        Console.WriteLine($"Average duration: {average}");
         Console.WriteLine($"Longest song: ");
         Console.WriteLine($"Longest song: Shortest song: ");
     }
