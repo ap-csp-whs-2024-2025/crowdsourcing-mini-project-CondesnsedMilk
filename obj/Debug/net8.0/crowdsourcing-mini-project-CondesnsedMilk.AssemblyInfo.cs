@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crowdsourcing-mini-project-CondesnsedMilk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c03cc0eaa2875e88725d8e5e7f837adf5d146cbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d00479490f64fa756bbdf2df4380b8c446599d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("crowdsourcing-mini-project-CondesnsedMilk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crowdsourcing-mini-project-CondesnsedMilk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

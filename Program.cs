@@ -12,8 +12,6 @@ class Program
 
         while(shouldContinue)
         {
-
-            
             Console.Write("Enter the song's title: ");
             songTitle.Add(Console.ReadLine()!);
 
@@ -32,8 +30,15 @@ class Program
             {
                 break;
             }
+
         }
 
+        Count(count, songTitle, songArtist, songDuration);
+        
+    }
+
+    static void Count(int subCount, List<string> songTitle, List<string> songArtist, List<int> songDuration)
+    {
         Console.WriteLine($"Total duration: {songDuration[count]}");
         Console.WriteLine($"Average duration: ");
         Console.WriteLine($"Longest song: ");
